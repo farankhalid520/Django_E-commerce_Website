@@ -1,7 +1,8 @@
 # Django_E-commerce_Website
 Created an E-commerce website using Django
 
-#Features
+# Features
+
 User Authentication & Management Using django-allauth
 Filtering & Searching Items By Category
 Adding & Removing Items From/To The Cart
@@ -14,7 +15,7 @@ Order History
 Request Refund
 Customized Default Django Admin Dashboard
 
-#Directory Layout
+# Directory Layout
 Django E-commerce Website App's directory structure looks as follows::
 
 E-commerce-Website-Django/
@@ -29,9 +30,9 @@ E-commerce-Website-Django/
     |---requirements.txt
     |----readme.md
 
-#Run the following commands
+# Run the following commands
 
-$ git clone https://github.com/MoinulHossainNabil/E-commerce-Website-Django.git
+$ git clone <repo-link>
 $ cd E-commerce-Website-Django
 
 $ pip install virtualenv
@@ -46,12 +47,13 @@ $ python manage.py migrate
 $ python manage.py createsuperuser --user <username> --email <email>
 $ python manage.py runserver
 
-#Static Files
+# Static Files
 
 If you don't see the styling work, just run the following command:
 $ python manage.py collectstatic
 
-#Models
+# Models
+
 UserProfile
 Item
 Category
@@ -62,5 +64,6 @@ Payment
 Coupon
 Refund
 
-#Stripe
+# Stripe
+
 I have used Stripe for handling payment of the order. Stripe officially provides card numbers for the testing purpose of their API's. So use Card Number 4242 4242 4242 4242 and specify a future a date like 12/30 in MM while filling up the payment form for an order to make.
